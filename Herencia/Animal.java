@@ -7,7 +7,9 @@ abstract class Animal {
         this.color = color;
     }
 
-    abstract public void desplazarse(int p);
+    abstract void desplazarse(int p);
+
+    abstract void comer();
 
     public String getColor(){
         return color;

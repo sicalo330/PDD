@@ -12,4 +12,8 @@ public class Perro extends Mamifero {
     public void desplazarse(int p){
         System.out.println("Perro camina " + p + " pasos");
     }
+    @Override
+    public void comer() {
+        System.out.println("Soy omnivoro y me encanta comer de todo, algunas comidas más que otras claro");;
+    }
 }

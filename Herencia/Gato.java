@@ -13,4 +13,9 @@ public class Gato extends Mamifero {
         caminar();
         System.out.println("Gato se desplazo " + p + " pasos");
     }
+
+    @Override
+    public void comer() {
+        System.out.println("Soy carnivoro, no es esencial comerlo todos los días pero lo necesito de vez en cuando");
+    }
 }
