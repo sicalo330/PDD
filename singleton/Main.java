@@ -1,8 +1,8 @@
 public class Main {
 
 	public static void main(String[] args) {
-		Singleton instance = Singleton.getInstance("algo", 5);
-		
+		Singleton instance = Singleton.getInstance("algo", 8);
+
 		Singleton objt1 = Singleton.getAnotherInstance("algo");
 		Singleton objt2 = Singleton.getAnotherInstance("algo");
 		Singleton objt3 = Singleton.getAnotherInstance("algo");
@@ -12,8 +12,7 @@ public class Main {
 		Singleton objt7 = Singleton.getAnotherInstance("algo");
 		Singleton objt8 = Singleton.getAnotherInstance("algo");
 		Singleton objt9 = Singleton.getAnotherInstance("algo");
-		
-		
+
 		System.out.println(objt1);
 		System.out.println(objt2);
 		System.out.println(objt3);
